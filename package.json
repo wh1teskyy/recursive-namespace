@@ -1,0 +1,12 @@
+{
+  "name": "recursive-namespace",
+  "repository": "https://github.com/wh1teskyy/recursive-namespace",
+  "license": "SEE LICENSE IN LICENSE",
+  "version": "3.0.0",
+  "main": "main.cjs",
+  "module": "main.mjs",
+  "types": "main.d.ts",
+  "dependencies": {
+    "is-plain-object": "^5.0.0"
+  }
+}
