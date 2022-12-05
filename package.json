@@ -2,7 +2,7 @@
   "name": "recursive-namespace",
   "repository": "https://github.com/wh1teskyy/recursive-namespace",
   "license": "SEE LICENSE IN LICENSE",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "main.cjs",
   "module": "main.mjs",
   "types": "main.d.ts",
