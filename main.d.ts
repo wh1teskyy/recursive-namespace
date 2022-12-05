@@ -1,5 +1,5 @@
 export interface Namespace<Args extends any[]> {
-    <T>(...args: Args) => T
+    <T>(...args: Args): T
     [name: string]: Namespace<Args>
 }
 
