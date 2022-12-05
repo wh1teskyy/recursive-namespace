@@ -1,4 +1,5 @@
-export type Namespace<Args extends any[]> = <T>(...args: Args) => T & {
+export interface Namespace<Args extends any[]> {
+    <T>(...args: Args) => T
     [name: string]: Namespace<Args>
 }
 
